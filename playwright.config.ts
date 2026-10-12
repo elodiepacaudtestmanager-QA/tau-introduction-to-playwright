@@ -12,6 +12,10 @@ require('dotenv').config();
  */
 export default defineConfig({
   // testDir: './tests',
+  /* Affichage fixe de la largeur et de la hauteur de la fenêtre du navigateur */
+  use: {
+    viewport: { width: 1920, height: 1080 },
+  },
 
   /* Run tests in files in parallel */
   fullyParallel: true,
